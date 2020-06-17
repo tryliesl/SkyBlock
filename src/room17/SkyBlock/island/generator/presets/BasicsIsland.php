@@ -36,7 +36,6 @@ class OPIsland extends IslandGenerator {
                 }
             }
             Tree::growTree($this->level, 8, 6, 8, $this->random, 0);
-            $chunk->setBlock(10, 6, 8, Block::CHEST);
             $chunk->setX($chunkX);
             $chunk->setZ($chunkZ);
             $this->level->setChunk($chunkX, $chunkZ, $chunk);
